@@ -147,7 +147,7 @@ func main() {
 							}
 						}
 
-						envfilesFromDir, err := ioutil.ReadDir("../../deploy-as-code/helm/environments/")
+						envfilesFromDir, err := ioutil.ReadDir("../../config-as-code/environments/")
 						if err != nil {
 							log.Fatal(err)
 						}
